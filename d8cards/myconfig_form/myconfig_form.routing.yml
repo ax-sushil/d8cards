@@ -1,0 +1,14 @@
+myconfig_form.config:
+  path: 'myconfig_form/config'
+  defaults:
+    _controller: '\Drupal\myconfig_form\Controller\MyModuleController::myConfig'
+    _title: 'My module configurations'
+  requirements:
+    _permission: 'access content'
+myconfig_form.myconfig:
+  path: 'admin/myconfig_form/config'
+  defaults:
+    _form: '\Drupal\myconfig_form\Form\MyModuleConfigForm'
+    _title: 'Configurations page'
+  requirements:
+    _permission: 'administer content'

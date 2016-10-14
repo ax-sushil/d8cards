@@ -1,0 +1,6 @@
+name: D8cards config form
+description : Creates simple configuration form for learning
+package: D8 cards
+type: module
+version: 1.0
+core: 8.x

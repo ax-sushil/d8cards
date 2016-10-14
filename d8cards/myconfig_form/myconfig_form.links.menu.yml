@@ -1,0 +1,6 @@
+myconfig_form.admin:
+  title: 'Hello module settings'
+  description: 'example of how to make an admin settings page link'
+  parent: system.admin_config_media
+  route_name: myconfig_form.config
+  weight: 100
